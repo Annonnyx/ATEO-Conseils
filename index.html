@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pierre Barneron — ATEO Conseils, fonds européens</title>
+  <meta name="description" content="ATEO Conseils — Pierre Barneron, consultant-formateur fonds européens depuis 1993. FSE+, FEDER, aides d'État. Appui aux collectivités, autorités de gestion et bénéficiaires.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='8' fill='%23003399'/%3E%3Ctext x='8' y='12' font-size='10' text-anchor='middle' fill='white' font-family='sans-serif'%3EA%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap top-inner">
+      <a class="logo" href="#top"><span class="dot" aria-hidden="true"></span>ATEO Conseils</a>
+      <nav aria-label="Navigation principale">
+        <a href="#qui">Qui</a>
+        <a href="#missions">Missions</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top" class="wrap">
+    <section class="hero">
+      <h1>Pierre Barneron — ATEO Conseils</h1>
+      <p class="baseline">Consultant-formateur fonds européens depuis 1993 — FSE+, FEDER, aides d’État.</p>
+      <p class="sub">Appui aux collectivités, autorités de gestion, organismes intermédiaires et bénéficiaires. France métropolitaine et outre-mer.</p>
+      <div class="actions">
+        <a class="btn" href="#contact">Me contacter</a>
+        <a class="link" href="mailto:contact@ateo-conseils.fr">contact@ateo-conseils.fr</a>
+      </div>
+    </section>
+
+    <section id="qui" class="branch">
+      <h2>Qui</h2>
+      <ul>
+        <li><strong>30+ ans</strong> exclusivement fonds européens à finalité structurelle.</li>
+        <li><strong>15 ans</strong> en services gestionnaires de l’État, dont 5 ans DGEFP (responsable Mission Méthodes, contrôles et finances, FSE).</li>
+        <li><strong>EI depuis 2008</strong> : un interlocuteur unique, senior, opérationnel.</li>
+      </ul>
+      <p class="detail">Maîtrise économie des entreprises, 3ᵉ cycle développement local. Ex-MAPROC Montpellier, DAF/DDAF, DGEFP/SDFSE.</p>
+    </section>
+
+    <section id="missions" class="branch">
+      <h2>Ce que je fais</h2>
+      <ul>
+        <li>Systèmes de gestion et de contrôle : définition, mise en place, maintenance, piste d’audit.</li>
+        <li>Instruction, contrôle de service fait, contrôles 1<sup>er</sup> niveau / qualité, audits.</li>
+        <li>Aides d’État et SIEG : mise en application, sécurisation.</li>
+        <li>Formation intra sur-mesure : bénéficiaires, gestionnaires, contrôleurs.</li>
+        <li>Outils : guides, instructions, documents types, tableaux de bord.</li>
+      </ul>
+      <p class="detail">Fonds : FSE+ (Fonds social européen), FEDER, FEADER (ex-FEOGA-O), FEAMPA (ex-IFOP). Rigueur, proximité terrain, pédagogie.</p>
+    </section>
+
+    <section id="pour-qui" class="branch">
+      <h2>Pour qui</h2>
+      <ul>
+        <li>Autorités de gestion : Régions, Collectivité de Corse, DREETS.</li>
+        <li>Organismes intermédiaires : Départements, services instructeurs et contrôleurs.</li>
+        <li>Bénéficiaires et porteurs de projets.</li>
+      </ul>
+    </section>
+
+    <section id="preuves" class="branch">
+      <h2>Preuves</h2>
+      <ul>
+        <li>Collectivité de Corse (2026) — instruction et contrôle service fait, 239 900 €.</li>
+        <li>Département de l’Aude (2023) — pilotage et gestion FSE+, 35 000 €.</li>
+        <li>Département des Deux-Sèvres (2021) — subvention globale FSE 2022-2027.</li>
+      </ul>
+      <p class="detail">Dizaines de formations animées depuis 2008. Références complètes sur demande.</p>
+    </section>
+
+    <section id="contact" class="branch contact">
+      <h2>Contact</h2>
+      <p>
+        <a href="mailto:contact@ateo-conseils.fr">contact@ateo-conseils.fr</a><br>
+        <a href="tel:+33981735311">09 81 73 53 11</a>
+      </p>
+      <p class="detail">2035 route de la Gèle, 26380 Peyrins — 3 avenue Jean Jaurès, 69007 Lyon<br>
+      EI — SIREN 422 673 509 — APE 7022Z<br>
+      Organisme de formation n°82 26 02135 26 <em>(cet enregistrement ne vaut pas agrément de l’État)</em></p>
+
+      <form id="contact-form" method="post" action="mailto:contact@ateo-conseils.fr" enctype="text/plain">
+        <label for="nom">Nom</label>
+        <input id="nom" name="nom" type="text" required autocomplete="name">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required autocomplete="email">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <button class="btn" type="submit">Envoyer</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>© ATEO Conseils — Pierre Barneron. Assistance Technique Europe et Organisation.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('contact-form').addEventListener('submit', function (e) {
+      var nom = document.getElementById('nom').value.trim();
+      var email = document.getElementById('email').value.trim();
+      var msg = document.getElementById('message').value.trim();
+      if (!nom || !email || !msg) return;
+      e.preventDefault();
+      var subject = encodeURIComponent('Contact site ATEO — ' + nom);
+      var body = encodeURIComponent(msg + '\n\n— ' + nom + ' (' + email + ')');
+      window.location.href = 'mailto:contact@ateo-conseils.fr?subject=' + subject + '&body=' + body;
+    });
+  </script>
+</body>
+</html>
