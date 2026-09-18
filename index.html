@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pierre Barneron — ATEO Conseils, fonds européens</title>
-  <meta name="description" content="ATEO Conseils — Pierre Barneron, consultant-formateur fonds européens depuis 1993. FSE+, FEDER, aides d'État. Un appui clair et apaisé pour les collectivités et gestionnaires.">
+  <meta name="description" content="ATEO Conseils — Pierre Barneron, consultant-formateur fonds européens depuis 1993. FSE+, FEDER, aides d'État. Cliquez sur chaque tuile pour le détail complet.">
   <meta name="theme-color" content="#FAFBFC">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%23EFF3FA'/%3E%3Ccircle cx='16' cy='16' r='6' fill='%23003399'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="style.css">
@@ -27,48 +27,46 @@
       <p class="eyebrow">Depuis 1993 · Fonds européens · France métropolitaine et outre-mer</p>
       <h1>Pierre Barneron<br><span>ATEO Conseils</span></h1>
       <p class="baseline">Éclairer les normes complexes, avec calme et rigueur.</p>
-      <p class="sub">Consultant-formateur — FSE+, FEDER, aides d’État.<br>Pour les collectivités, autorités de gestion, organismes intermédiaires et bénéficiaires.</p>
+      <p class="sub">Consultant-formateur — FSE+, FEDER, aides d’État.<br>Cliquez sur une tuile pour voir le détail complet.</p>
       <div class="actions">
         <a class="btn" href="#contact">Me contacter</a>
         <a class="mail" href="mailto:contact@ateo-conseils.fr">contact@ateo-conseils.fr</a>
       </div>
     </section>
 
-    <section id="qui" class="card">
+    <section id="qui" class="card tile" data-open="dlg-qui" tabindex="0" role="button" aria-haspopup="dialog" aria-label="Qui — voir le détail complet">
       <h2>Qui</h2>
       <ul class="calm">
         <li><strong>30+ ans</strong> dédiés aux fonds européens à finalité structurelle.</li>
-        <li><strong>15 ans</strong> au sein de l’État — dont 5 ans à la DGEFP, responsable de la mission Méthodes, contrôles et finances (FSE).</li>
-        <li><strong>Indépendant depuis 2008</strong> — un seul interlocuteur, senior, de terrain.</li>
+        <li><strong>15 ans</strong> au sein de l’État — dont 5 ans à la DGEFP (FSE).</li>
+        <li><strong>Indépendant depuis 2008</strong> — un seul interlocuteur, senior.</li>
       </ul>
-      <p class="detail">Maîtrise d’économie, 3ᵉ cycle en développement local. Parcours : MAPROC Montpellier, DAF / DDAF, DGEFP.</p>
+      <p class="more">Voir le détail complet →</p>
     </section>
 
-    <section id="missions" class="card">
+    <section id="missions" class="card tile" data-open="dlg-missions" tabindex="0" role="button" aria-haspopup="dialog" aria-label="Missions — voir le détail complet">
       <h2>Missions</h2>
       <ul class="calm">
-        <li>Systèmes de gestion et de contrôle — définition, maintenance, piste d’audit.</li>
-        <li>Instruction, contrôle de service fait, audits et contrôles qualité.</li>
-        <li>Aides d’État et SIEG — application simple et sécurisée.</li>
-        <li>Formations intra, sur mesure — gestionnaires, contrôleurs, bénéficiaires.</li>
-        <li>Outils clairs — guides, instructions, tableaux de bord.</li>
+        <li>Systèmes de gestion et de contrôle, piste d’audit.</li>
+        <li>Instruction, contrôle de service fait, audits.</li>
+        <li>Aides d’État et SIEG, formations intra, outils.</li>
       </ul>
-      <p class="detail">FSE+, FEDER, FEADER, FEAMPA. Pédagogie, proximité, appropriation.</p>
+      <p class="more">Voir les 7 services en détail →</p>
     </section>
 
-    <section id="pour-qui" class="card soft">
+    <section id="pour-qui" class="card soft tile" data-open="dlg-pourqui" tabindex="0" role="button" aria-haspopup="dialog" aria-label="Pour qui — voir le détail complet">
       <h2>Pour qui</h2>
-      <p class="simple">Régions et Collectivité de Corse · Départements et DREETS · Services instructeurs et contrôleurs · Porteurs de projets</p>
+      <p class="simple">Régions et Corse · Départements et DREETS · Instructeurs et contrôleurs · Porteurs de projets</p>
+      <p class="more">Voir tous les publics et fonds →</p>
     </section>
 
-    <section id="preuves" class="card">
+    <section id="preuves" class="card tile" data-open="dlg-preuves" tabindex="0" role="button" aria-haspopup="dialog" aria-label="Preuves — voir le détail complet">
       <h2>Preuves, en douceur</h2>
       <ul class="calm">
-        <li>Collectivité de Corse, 2026 — instruction et contrôle, 239&nbsp;900&nbsp;€.</li>
-        <li>Département de l’Aude, 2023 — pilotage FSE+, 35&nbsp;000&nbsp;€.</li>
-        <li>Deux-Sèvres, 2021 — subvention globale FSE 2022-2027.</li>
+        <li>Corse 2026 — 239&nbsp;900&nbsp;€ · Aude 2023 — 35&nbsp;000&nbsp;€ · Deux-Sèvres 2021.</li>
       </ul>
-      <p class="detail">Dizaines de formations depuis 2008. Références complètes sur simple demande.</p>
+      <p class="detail">Dizaines de formations depuis 2008.</p>
+      <p class="more">Voir toutes les références →</p>
     </section>
 
     <section id="contact" class="card contact">
@@ -93,6 +91,77 @@
     </section>
   </main>
 
+  <dialog id="dlg-qui" class="modal" aria-labelledby="dlg-qui-t">
+    <div class="modal-inner">
+      <button class="close" data-close aria-label="Fermer">×</button>
+      <h2 id="dlg-qui-t">Qui — Pierre Barneron</h2>
+      <p>Maîtrise d’économie des entreprises, 3ᵉ cycle en développement local. Exclusivement fonds européens depuis 1993.</p>
+      <h3>Parcours</h3>
+      <ul>
+        <li><strong>1995-2000 :</strong> services déconcentrés agriculture (DAF/DDAF), dont DAF Guadeloupe — responsable Mission suivi programmes contractuels, conseiller et formateur.</li>
+        <li><strong>2000-2002 :</strong> MAPROC Montpellier — consultant-formateur programmes communautaires.</li>
+        <li><strong>2003-2004 :</strong> DGEFP, chargé de mission Qualité méthodes FSE.</li>
+        <li><strong>2004-2008 :</strong> DGEFP, responsable service Appui aux systèmes de gestion du FSE / Mission Méthodes, contrôles et finances.</li>
+        <li><strong>Depuis 2008 :</strong> ATEO Conseils (Assistance Technique Europe et Organisation), EI — SIREN 422 673 509.</li>
+      </ul>
+      <h3>Fonctions occupées</h3>
+      <p>Montage de projets, instruction, animation de comités techniques et de programmation, contrôle de service fait, contrôle 2nd niveau, contrôle qualité gestion, gestion budgétaire et financière, formation, responsable service gestion et service appui méthodologique.</p>
+      <h3>Fonds et programmations</h3>
+      <p>FSE→FSE+, FEDER, IFOP→FEAMP, FEOGA-O→FEADER. Objectifs 1, 2, 3, 5b, puis convergence, compétitivité régionale et emploi, Investissement pour la Croissance et l’Emploi, 2021-2027.</p>
+    </div>
+  </dialog>
+
+  <dialog id="dlg-missions" class="modal" aria-labelledby="dlg-missions-t">
+    <div class="modal-inner">
+      <button class="close" data-close aria-label="Fermer">×</button>
+      <h2 id="dlg-missions-t">Missions — les 7 services</h2>
+      <ol>
+        <li>Définition, mise en place et maintenance de systèmes de gestion et de contrôle.</li>
+        <li>Audits, contrôles d’opérations, contrôles qualité — diagnostic et piste d’audit.</li>
+        <li>Appui au montage de projets, instruction, contrôles de 1er niveau.</li>
+        <li>Appui technique, formation, assistance bénéficiaires / gestionnaires / contrôleurs.</li>
+        <li>Gestion financière de programmes et projets cofinancés.</li>
+        <li>Spécifications de systèmes d’information et tableaux de bord d’évaluation.</li>
+        <li>Conception d’outils : instructions, guides, documents types.</li>
+      </ol>
+      <h3>Spécialisation depuis 2002</h3>
+      <p>FSE / FSE+, pilotage de systèmes d’autorités de gestion et organismes intermédiaires, aides d’État et SIEG.</p>
+      <h3>Principes</h3>
+      <p>Rigueur, maîtrise technique, expérience terrain, proximité, sur-mesure, pédagogie et appropriation. Formations intra sur mesure, parfois accompagné d’intervenants extérieurs ponctuels.</p>
+    </div>
+  </dialog>
+
+  <dialog id="dlg-pourqui" class="modal" aria-labelledby="dlg-pourqui-t">
+    <div class="modal-inner">
+      <button class="close" data-close aria-label="Fermer">×</button>
+      <h2 id="dlg-pourqui-t">Pour qui — publics et fonds</h2>
+      <h3>Gestionnaires et contrôleurs</h3>
+      <p>Régions autorités de gestion, Collectivité de Corse, DREETS, Départements OI, services instructeurs et contrôleurs. Systèmes de gestion, maintenance, gestion de programme, stratégies d’intervention, évaluation.</p>
+      <h3>Dossiers d’aide</h3>
+      <p>Instruction technique, administrative et financière, visites sur place, contrôle de service fait, fiabilité des indicateurs.</p>
+      <h3>Bénéficiaires</h3>
+      <p>Montage et suivi administratif et financier des demandes d’aide et demandes de paiement. Zone : métropole et outre-mer.</p>
+      <p class="detail">Vocabulaire : AG, OI, AC, subvention globale, CSF, piste d’audit, SIEG, marchés publics.</p>
+    </div>
+  </dialog>
+
+  <dialog id="dlg-preuves" class="modal" aria-labelledby="dlg-preuves-t">
+    <div class="modal-inner">
+      <button class="close" data-close aria-label="Fermer">×</button>
+      <h2 id="dlg-preuves-t">Preuves — références et moyens</h2>
+      <h3>Marchés publics gagnés</h3>
+      <ul>
+        <li><strong>Corse, 11/02/2026 :</strong> instruction et contrôle service fait fonds européens — 239 900 €, 1 an, appel d’offres ouvert.</li>
+        <li><strong>Aude, 26/09/2023 :</strong> pilotage et gestion FSE+ — 35 000 €, 12 mois.</li>
+        <li><strong>Deux-Sèvres, 27/09/2021 :</strong> AMO subvention globale FSE 2022-2027 — 39 999 €.</li>
+      </ul>
+      <h3>Autres références</h3>
+      <p>DREETS Bourgogne-Franche-Comté 2023-2026 (contrôle interne, OI FSE+), Départements OI 2023-2025, Pays-de-la-Loire 2018-2025 (FEDER/FSE/FEADER + aides d’État), Île-de-France 2021-2025, Corse 2019-2026, OI FSE depuis 2008 (instruction, CSF), AG/AC/OI depuis 2013 (piste d’audit, SIEG, marchés publics).</p>
+      <h3>Moyens</h3>
+      <p>Un consultant senior à temps plein, plateforme collaborative, répertoire cloud de 3000+ références sur la Politique de cohésion. Références complètes sur demande via le formulaire.</p>
+    </div>
+  </dialog>
+
   <footer>
     <div class="wrap">
       <p>© ATEO Conseils — Pierre Barneron · Assistance Technique Europe et Organisation · La clarté inspire la paix.</p>
@@ -106,6 +175,26 @@
   </footer>
 
   <script>
+    // Tuiles -> modales
+    document.querySelectorAll('[data-open]').forEach(function (tile) {
+      var dlg = document.getElementById(tile.getAttribute('data-open'));
+      if (!dlg) return;
+      function open() { if (typeof dlg.showModal === 'function') dlg.showModal(); }
+      tile.addEventListener('click', function (e) {
+        if (e.target.closest('a')) return;
+        open();
+      });
+      tile.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
+      });
+      dlg.addEventListener('click', function (e) {
+        if (e.target === dlg) dlg.close();
+      });
+      dlg.querySelectorAll('[data-close]').forEach(function (b) {
+        b.addEventListener('click', function () { dlg.close(); });
+      });
+    });
+    // Formulaire mailto
     document.getElementById('contact-form').addEventListener('submit', function (e) {
       var nom = document.getElementById('nom').value.trim();
       var email = document.getElementById('email').value.trim();

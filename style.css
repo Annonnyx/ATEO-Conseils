@@ -80,6 +80,27 @@ ul.calm li::before {
 .detail { color: #7A8AA0; font-size: 15px; margin: 8px 0 0; }
 .simple { color: #33486B; margin: 14px 0 0; line-height: 1.9; }
 
+/* Tuiles cliquables */
+.tile { cursor: pointer; transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease; }
+.tile:hover { transform: translateY(-2px); border-color: #C9D5EA; box-shadow: 0 6px 18px rgba(27,42,69,.07); }
+.tile:focus-visible { outline: 2px solid #003399; outline-offset: 3px; }
+.more { color: #003399; font-size: 15px; margin: 14px 0 0; }
+
+/* Modales */
+.modal { border: 1px solid #E6EBF2; border-radius: 16px; padding: 0; max-width: 640px; width: calc(100% - 40px); color: #243247; }
+.modal::backdrop { background: rgba(27,42,69,.45); }
+.modal-inner { padding: 32px 32px 28px; max-height: 80vh; overflow: auto; position: relative; }
+.modal-inner h2 { font-family: Georgia, serif; font-weight: 500; font-size: 24px; color: #1B2A45; margin: 0 40px 8px 0; }
+.modal-inner h3 { font-size: 16px; color: #1B2A45; margin: 20px 0 6px; }
+.modal-inner p, .modal-inner li { font-size: 16px; }
+.modal-inner ul, .modal-inner ol { margin: 8px 0; padding-left: 22px; }
+.close {
+  position: absolute; top: 14px; right: 14px; width: 36px; height: 36px;
+  border-radius: 50%; border: 1px solid #E6EBF2; background: #F6F8FB;
+  font-size: 20px; line-height: 1; cursor: pointer; color: #33486B;
+}
+.close:hover { background: #EFF3FA; }
+
 /* Contact */
 .contact { background: #fff; }
 .contact-lines { margin: 14px 0 10px; line-height: 2; }
