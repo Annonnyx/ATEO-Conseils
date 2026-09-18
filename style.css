@@ -96,9 +96,17 @@ input, textarea {
 input::placeholder, textarea::placeholder { color: #9AA9C1; }
 form .btn { margin-top: 18px; width: 100%; }
 
+/* Légal */
+.legal h3 { font-size: 17px; color: #1B2A45; margin: 24px 0 6px; }
+.legal p { margin: 0 0 10px; }
+.legal a { overflow-wrap: anywhere; }
+
 /* Footer */
 footer { margin: 56px 0 0; padding: 28px 0 44px; border-top: 1px solid #E6EBF2; }
-footer p { color: #9AA9C1; font-size: 13px; margin: 0; text-align: center; }
+footer p { color: #9AA9C1; font-size: 13px; margin: 6px 0; text-align: center; }
+footer nav { text-align: center; margin-top: 4px; }
+footer nav a { color: #7A8AA0; font-size: 13px; margin: 0 8px; text-decoration: none; }
+footer nav a:hover { color: #003399; text-decoration: underline; }
 
 @media (max-width: 600px) {
   body { font-size: 16px; }
